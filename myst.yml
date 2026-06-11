@@ -27,6 +27,8 @@ project:
     - title: Tutorials
       file: content/tutorials/index.md
       children:
+        - title: "Notebook 1 – Introduction to GloFAS & EWDS"
+          file: content/tutorials/notebook1-introduction-glofas-ewds.ipynb
         - file: content/tutorials/submodules.md
     - title: How-to
       file: content/howto/index.md
