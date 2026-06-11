@@ -6,15 +6,15 @@ extends:
   - branding/c3s.yml
 
 project:
-  title: ECMWF Training Template
+  title: CEMS GloFAS training
   license: Apache-2.0
   open_access: true
   exclude:
     - developer/*
-  github: ecmwf-training/jupyter-template
+  github: Simow-az/2026-icar-glofas-training
   thebe:
     binder:
-      repo: ecmwf-training/jupyter-template
+      repo: Simow-az/2026-icar-glofas-training
       provider: github
       url: https://mybinder.org
       ref: main
@@ -27,6 +27,8 @@ project:
     - title: Tutorials
       file: content/tutorials/index.md
       children:
+        - file: content/tutorials/access-glofas-historical-data.ipynb
+        - file: content/tutorials/analyse-glofas-forecast-signal.ipynb
         - file: content/tutorials/submodules.md
     - title: How-to
       file: content/howto/index.md

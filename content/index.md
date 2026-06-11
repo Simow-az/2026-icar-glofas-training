@@ -1,42 +1,43 @@
-# ECMWF Jupyter Book template
+# Copernicus Emergency Management Service GloFAS tutorials
 
-This repository provides a **ready-to-use template** for creating and maintaining **Jupyter Books**
-for learning, training, and technical documentation in C3S/CAMS projects implemented by ECMWF.
+This Jupyter Book collects practical notebook tutorials for working with **Global Flood Awareness System (GloFAS)** data.
+The focus is on small, reusable workflows that help you move from a first CDS request to exploratory analysis in Python.
 
-It serves two purposes:
+The tutorials are aimed at learners who want to understand how to:
 
-1. **Help you get started quickly.**
-    The template gives you a clear structure and consistent styling, so you can focus on your content.
-2. **Guide you along the way.**
-    It also documents recommended practices, helping you avoid rework later during reviews and publication.
+- access public GloFAS historical and forecast products;
+- inspect river discharge data with `xarray`;
+- turn raw hydrographs into simple flood-awareness indicators.
 
-In short, the template saves time twice: first by accelerating the initial setup, and later by reducing review cycles and fixes.
-
-
-::::{grid} 1 1 2 3
+::::{grid} 1 1 2 2
 
 :::{card}
-:header: Get started
-:link: ./howto/setup-book
-Follow step-by-step instructions to set up your Jupyter Book.
+:header: Historical workflow
+:link: ./tutorials/access-glofas-historical-data
+Prepare a compact historical download request and plot daily discharge time series.
+:::
+
+:::{card}
+:header: Forecast workflow
+:link: ./tutorials/analyse-glofas-forecast-signal
+Work with forecast lead times and ensemble-style indicators for flood awareness.
 :::
 
 :::{card}
 :header: Notebook template
 :link: ./reference/template-notebook
-Start from a minimal notebook template that already follows best practices.
+Reuse the house notebook structure when you draft additional GloFAS lessons.
 :::
 
 :::{card}
 :header: Best practices
 :link: ./reference/best-practices
-Learn how to develop clear and review-ready notebooks.
+Check the writing and review guidance before extending the book further.
 :::
 
 ::::
 
-
-:::{note} 
+:::{note}
 This documentation is organised using the [Diátaxis framework](./explanation/diataxis.md).
-We recommend using the same approach when structuring your own project’s Jupyter Book.
+The new notebooks live in the tutorial layer because they provide guided, learning-oriented walkthroughs.
 :::
