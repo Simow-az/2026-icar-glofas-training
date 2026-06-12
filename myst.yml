@@ -28,6 +28,7 @@ project:
       file: content/tutorials/index.md
       children:
         - file: content/tutorials/submodules.md
+        - file: content/tutorials/accessing-and-downloading-glofas-data-from-cems-ewds.ipynb
     - title: How-to
       file: content/howto/index.md
       children:
