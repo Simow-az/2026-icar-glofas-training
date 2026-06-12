@@ -6,15 +6,15 @@ extends:
   - branding/c3s.yml
 
 project:
-  title: ECMWF Training Template
+  title: 2026 ICAR GloFAS training
   license: Apache-2.0
   open_access: true
   exclude:
     - developer/*
-  github: ecmwf-training/jupyter-template
+  github: https://github.com/Simow-az/2026-icar-glofas-training/ 
   thebe:
     binder:
-      repo: ecmwf-training/jupyter-template
+      repo: https://github.com/Simow-az/2026-icar-glofas-training/
       provider: github
       url: https://mybinder.org
       ref: main
